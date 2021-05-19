@@ -1,0 +1,3 @@
+on boot
+   chmod 0666 /dev/fpsensor
+   chown system system /dev/fpsensor

@@ -1,0 +1,15 @@
+# goodix fingerprint
+on fs
+    chown system system /dev/goodix_fp
+
+# FPC
+    mkdir /data/fpc 0770 system system
+
+##FPC
+    chown system system /sys/bus/platform/devices/soc:fpc_interrupt/clk_enable
+    chown system system /sys/bus/platform/devices/soc:fpc_interrupt/wakeup_enable
+    chown system system /sys/bus/platform/devices/soc:fpc_interrupt/irq
+    chmod 0200 /sys/bus/platform/devices/soc:fpc_interrupt/clk_enable
+    chmod 0200 /sys/bus/platform/devices/soc:fpc_interrupt/wakeup_enable
+    chmod 0600 /sys/bus/platform/devices/soc:fpc_interrupt/irq
+

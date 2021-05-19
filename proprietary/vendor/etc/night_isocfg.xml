@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<opencv_storage>
+  <iso200>
+    <value>200</value>
+    <level>0</level>
+    <luma>0</luma>
+    <chroma>10</chroma>
+    <detail>31</detail>
+    <edge>15</edge>
+    <nsize>3</nsize>
+  </iso200>
+
+  <iso400>
+    <value>400</value>
+    <level>0</level>
+    <luma>0</luma>
+    <chroma>10</chroma>
+    <detail>51</detail>
+    <edge>15</edge>
+    <nsize>3</nsize>
+  </iso400>
+ 
+  <iso800>
+    <value>800</value>
+    <level>1</level>
+    <luma>0</luma>
+    <chroma>10</chroma>
+    <detail>51</detail>
+    <edge>15</edge>
+    <nsize>5</nsize>
+  </iso800>
+
+  <iso1200>
+    <value>1200</value>
+    <level>1</level>
+    <luma>0</luma>
+    <chroma>10</chroma>
+    <detail>51</detail>
+    <edge>15</edge>
+    <nsize>5</nsize>
+  </iso1200>
+
+  <iso1600>
+    <value>1600</value>
+    <level>1</level>
+    <luma>0</luma>
+    <chroma>10</chroma>
+    <detail>51</detail>
+    <edge>20</edge>
+    <nsize>7</nsize>
+  </iso1600>
+
+  <iso2400>
+    <value>2400</value>
+    <level>1</level>
+    <luma>0</luma>
+    <chroma>10</chroma>
+    <detail>51</detail>
+    <edge>20</edge>
+    <nsize>9</nsize>
+  </iso2400> 
+
+  <iso3200>
+    <value>3200</value>
+    <level>1</level>
+    <luma>0</luma>
+    <chroma>10</chroma>
+    <detail>51</detail>
+    <edge>25</edge>
+    <nsize>13</nsize>
+  </iso3200>
+
+  <iso4800>
+    <value>4800</value>
+    <level>2</level>
+    <luma>0</luma>
+    <chroma>10</chroma>
+    <detail>51</detail>
+    <edge>25</edge>
+    <nsize>15</nsize>
+  </iso4800>
+
+  <iso6400>
+    <value>6400</value>
+    <level>2</level>
+    <luma>0</luma>
+    <chroma>10</chroma>
+    <detail>51</detail>
+    <edge>25</edge>
+    <nsize>19</nsize>
+  </iso6400>
+</opencv_storage>

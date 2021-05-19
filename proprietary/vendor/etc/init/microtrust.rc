@@ -1,0 +1,13 @@
+# For MTK DRM integration:
+on fs
+    chmod 0660 /dev/teei_loader
+    chmod 0660 /dev/teei_fp
+    chown system system /dev/teei_fp
+    chown system system /dev/teei_loader
+
+# For Microtrust internal development
+service teei_loader /vendor/bin/teei_loader
+    class core
+    user system
+    group system
+    oneshot
